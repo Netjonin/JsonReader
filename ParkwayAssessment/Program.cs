@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Data;
-var fees = JsonLoader.LoadJson();
-var allFees = fees.AllFees;
+using ParkwayAssessment;
+
+var output = Console.ReadLine();
+var input = Convert.ToInt32(output);   
+Console.WriteLine(Charges.ChargesToPay(input));
 
 
 
