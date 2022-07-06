@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cZAh6hjTUdOzGOFKvqXAZpVrvFp61Wa/Dg4gbDYea7StyC1/+2ND50WGUYRDXQOFUDq+UfQ3IjCPkDOoSL6NTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

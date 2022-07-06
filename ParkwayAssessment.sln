@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkwayAssessment", "ParkwayAssessment\ParkwayAssessment.csproj", "{01DEA5A0-B72F-4853-8AC5-19CF45383472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{43EFCFA2-10DF-4FC1-9CAB-AC6AA6E428B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{2ED5AE02-567A-4508-9C6F-76536159F89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DEA5A0-B72F-4853-8AC5-19CF45383472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DEA5A0-B72F-4853-8AC5-19CF45383472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DEA5A0-B72F-4853-8AC5-19CF45383472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DEA5A0-B72F-4853-8AC5-19CF45383472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EFCFA2-10DF-4FC1-9CAB-AC6AA6E428B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EFCFA2-10DF-4FC1-9CAB-AC6AA6E428B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EFCFA2-10DF-4FC1-9CAB-AC6AA6E428B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EFCFA2-10DF-4FC1-9CAB-AC6AA6E428B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED5AE02-567A-4508-9C6F-76536159F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED5AE02-567A-4508-9C6F-76536159F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED5AE02-567A-4508-9C6F-76536159F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED5AE02-567A-4508-9C6F-76536159F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C6FFFB-A600-47F0-A930-579517239579}
+	EndGlobalSection
+EndGlobal
