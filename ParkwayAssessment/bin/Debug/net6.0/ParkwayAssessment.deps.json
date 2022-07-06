@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ParkwayAssessment/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0"
+          "UI": "1.0.0"
         },
         "runtime": {
           "ParkwayAssessment.dll": {}
@@ -38,6 +38,22 @@
         "runtime": {
           "Entity.dll": {}
         }
+      },
+      "TransferCalculations/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "runtime": {
+          "TransferCalculations.dll": {}
+        }
+      },
+      "UI/1.0.0": {
+        "dependencies": {
+          "TransferCalculations": "1.0.0"
+        },
+        "runtime": {
+          "UI.dll": {}
+        }
       }
     }
   },
@@ -60,6 +76,16 @@
       "sha512": ""
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransferCalculations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

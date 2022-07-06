@@ -37,6 +37,32 @@
         "runtime": {
           "bin/placeholder/Entity.dll": {}
         }
+      },
+      "TransferCalculations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TransferCalculations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransferCalculations.dll": {}
+        }
+      },
+      "UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TransferCalculations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UI.dll": {}
+        }
       }
     }
   },
@@ -77,11 +103,21 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "TransferCalculations/1.0.0": {
+      "type": "project",
+      "path": "../TransferCalculations/TransferCalculations.csproj",
+      "msbuildProject": "../TransferCalculations/TransferCalculations.csproj"
+    },
+    "UI/1.0.0": {
+      "type": "project",
+      "path": "../TransferUI/UI.csproj",
+      "msbuildProject": "../TransferUI/UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Data >= 1.0.0"
+      "UI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -111,8 +147,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\Data\\Data.csproj"
+            "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\TransferUI\\UI.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\TransferUI\\UI.csproj"
             }
           }
         }

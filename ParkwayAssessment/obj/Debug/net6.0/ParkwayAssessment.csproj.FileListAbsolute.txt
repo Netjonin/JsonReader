@@ -20,3 +20,7 @@ C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\obj\Debu
 C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\obj\Debug\net6.0\ParkwayAssessment.genruntimeconfig.cache
 C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\obj\Debug\net6.0\ref\ParkwayAssessment.dll
 C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\bin\Debug\net6.0\fees.config.json
+C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\bin\Debug\net6.0\TransferCalculations.dll
+C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\bin\Debug\net6.0\UI.dll
+C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\bin\Debug\net6.0\UI.pdb
+C:\Users\hp\Desktop\csharp\projects\ParkwayAssessment\ParkwayAssessment\bin\Debug\net6.0\TransferCalculations.pdb

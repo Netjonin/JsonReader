@@ -1,11 +1,7 @@
 ﻿using Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ParkwayAssessment
+
+namespace TransferCalculations
 {
     public static class Charges
     {
@@ -29,6 +25,11 @@ namespace ParkwayAssessment
                     advisedAmount = fund - fee.FeeAmount;
             }
             return advisedAmount;
+        }
+
+        public static int DebitAmount(int transferAmount, int charge)
+        {
+            return charge + transferAmount;
         }
     }
 }

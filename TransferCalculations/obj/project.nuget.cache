@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WTtKyqsseiYA7YbwIQK9n134C+1HgTJlKIgFN3bEoyluTaMtDxp9i7b/qJdEPB3FMr/klpRGOdqtPbk2pcMdDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\csharp\\projects\\ParkwayAssessment\\TransferCalculations\\TransferCalculations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
