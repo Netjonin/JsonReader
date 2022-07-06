@@ -19,5 +19,16 @@ namespace ParkwayAssessment
             }
             return charge;
         }
+
+        public static int RecommendedAmount(int fund)
+        {
+            int advisedAmount = 0;
+            foreach (var fee in JsonLoader.LoadJson()?.AllFees!)
+            {
+                if (fund >= fee.MinAmount && fund <= fee.MaxAmount)
+                    advisedAmount = fund - fee.FeeAmount;
+            }
+            return advisedAmount;
+        }
     }
 }
